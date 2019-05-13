@@ -1,0 +1,14 @@
+
+net process_play_1
+
+pl play_1_smove (1)
+
+tr play_1_t0  [0,w[   play_1_smove -> play_1_smove
+tr play_1_t1  [0,w[   play_1_smove -> play_1_smove
+tr play_1_t2  [0,w[   play_1_smove -> play_1_smove
+tr play_1_t3  [0,w[   play_1_smove -> play_1_smove
+tr play_1_t4  [0,w[   play_1_smove -> play_1_smove
+tr play_1_t5  [0,w[   play_1_smove -> play_1_smove
+tr play_1_t6  [0,w[   play_1_smove -> play_1_smove
+tr play_1_t7  [0,w[   play_1_smove -> play_1_smove
+

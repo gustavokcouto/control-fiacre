@@ -1,0 +1,64 @@
+# Created Sun May 12 23:03:33 2019 by TINA version 3.4.4
+
+kts process_play_1
+12 nodes
+32 edges
+2 state property namespace(s)
+  L: 1 property: scc
+  S [n]: 5 properties: play_1_smove play_1_vx1 play_1_vy1 ...
+1 transition property namespace(s)
+  E: 8 properties: play_1_t0 play_1_t1 play_1_t2 ...
+24 state property sets
+  12 over namespace L
+  12 over namespace S
+8 transition property sets
+  8 over namespace E
+
+state 0
+props play_1_smove play_1_vx1 play_1_vy1 play_1_vx2*2 play_1_vy2
+trans play_1_t3/1 play_1_t7/2
+
+state 1
+props play_1_smove play_1_vx1 play_1_vy1*2 play_1_vx2*2 play_1_vy2
+trans play_1_t2/0 play_1_t1/3 play_1_t4/4 play_1_t7/5
+
+state 2
+props play_1_smove play_1_vx1 play_1_vy1 play_1_vx2*2 play_1_vy2*2
+trans play_1_t6/0 play_1_t3/5 play_1_t1/6 play_1_t4/7
+
+state 3
+props play_1_smove play_1_vx1*2 play_1_vy1*2 play_1_vx2*2 play_1_vy2
+trans play_1_t0/1 play_1_t4/8
+
+state 4
+props play_1_smove play_1_vx1 play_1_vy1*2 play_1_vx2 play_1_vy2
+trans play_1_t5/1 play_1_t1/8
+
+state 5
+props play_1_smove play_1_vx1 play_1_vy1*2 play_1_vx2*2 play_1_vy2*2
+trans play_1_t6/1 play_1_t2/2
+
+state 6
+props play_1_smove play_1_vx1*2 play_1_vy1 play_1_vx2*2 play_1_vy2*2
+trans play_1_t0/2 play_1_t4/9
+
+state 7
+props play_1_smove play_1_vx1 play_1_vy1 play_1_vx2 play_1_vy2*2
+trans play_1_t5/2 play_1_t1/9
+
+state 8
+props play_1_smove play_1_vx1*2 play_1_vy1*2 play_1_vx2 play_1_vy2
+trans play_1_t5/3 play_1_t0/4 play_1_t2/10 play_1_t7/11
+
+state 9
+props play_1_smove play_1_vx1*2 play_1_vy1 play_1_vx2 play_1_vy2*2
+trans play_1_t5/6 play_1_t0/7 play_1_t6/10 play_1_t3/11
+
+state 10
+props play_1_smove play_1_vx1*2 play_1_vy1 play_1_vx2 play_1_vy2
+trans play_1_t3/8 play_1_t7/9
+
+state 11
+props play_1_smove play_1_vx1*2 play_1_vy1*2 play_1_vx2 play_1_vy2*2
+trans play_1_t6/8 play_1_t2/9
+
