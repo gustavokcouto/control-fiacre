@@ -1,0 +1,23 @@
+/* Process */
+
+process play is
+   states move
+   var x : 0..3 := 1,
+       y : 0..3 := 1,
+      a : array 4 of array 4 of nat := [[1,1,1,1],
+                                        [1,0,0,1],
+                                        [1,0,0,1],
+                                        [1,1,1,1]]
+      
+   from move
+      select
+      	 on a[y][x-1]=0; x := x-1; to move
+      [] on a[y][x+1]=0; x := x+1; to move
+      [] on a[y-1][x]=0; y := y-1; to move
+      [] on a[y+1][x]=0; y := y+1; to move
+      end
+
+
+/* Entry point */
+
+play
